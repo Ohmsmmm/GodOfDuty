@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 
-namespace Final_Assignment
+namespace GodOfDuty
 {
     class Camera
     {

@@ -14,6 +14,43 @@
     <None Remove="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\GodOfDuty.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\GodOfDuty.AssemblyInfo.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\x86\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x86\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x86\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Windows\x86\Debug\Content\sounds\bgm_1.wma" />
+    <Content Include="bin\Windows\x86\Debug\MonoGame.Framework.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.Direct2D1.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.Direct3D11.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.DXGI.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.XAudio2.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.XInput.xml" />
+    <Content Include="bin\Windows\x86\Debug\SharpDX.xml" />
+    <Content Include="bin\Windows\x86\Release\Content\sounds\bgm_1.wma" />
+    <Content Include="bin\Windows\x86\Release\MonoGame.Framework.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.Direct2D1.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.Direct3D11.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.DXGI.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.MediaFoundation.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.XAudio2.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.XInput.xml" />
+    <Content Include="bin\Windows\x86\Release\SharpDX.xml" />
+    <Content Include="obj\GodOfDuty.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\x86\Debug\Final Assignment.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Release\Final Assignment.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Release\Tales war.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Icon.ico" />
     <EmbeddedResource Include="Icon.bmp" />
   </ItemGroup>
@@ -21,10 +58,167 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Windows\x86\Debug\Content\font\File.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\bgm_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\dead.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\hit_char.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\hit_floor.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\hit_iron.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\selected_sound.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\selection_sound.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sounds\shoot.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\about.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\arrow.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\ball.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\bg_control.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\bg_lose.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\bg_win.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\bullet.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\char_bg_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\char_bg_2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\fram1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\fx_barrier.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\fx_burn.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\gauge.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\heart.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\hitbox.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\menu_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\menu_2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\menu_3.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\menu_4.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\menu_strip.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\newmainskill.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\newplus.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\pin.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\select.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\sheet_guan.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\sheet_mob.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\sheet_sung.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\sheet_thor.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\sheet_zeus.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\skill_thor_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\skill_thor_2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\skill_thor_3.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\skill_zeus_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\skill_zeus_2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\skill_zeus_3.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\stage_bg.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\stage_platform_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\stage_platform_2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\stage_sky_1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\stage_sky_2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\t1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\t2.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\z1.xnb" />
+    <None Include="bin\Windows\x86\Debug\Content\sprites\z2.xnb" />
+    <None Include="bin\Windows\x86\Debug\GodOfDuty.exe" />
+    <None Include="bin\Windows\x86\Debug\GodOfDuty.pdb" />
+    <None Include="bin\Windows\x86\Debug\MonoGame.Framework.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.Direct2D1.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.Direct3D11.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.DXGI.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.XAudio2.dll" />
+    <None Include="bin\Windows\x86\Debug\SharpDX.XInput.dll" />
+    <None Include="bin\Windows\x86\Release\Content\font\File.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\bgm_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\dead.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\hit_char.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\hit_floor.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\hit_iron.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\selected_sound.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\selection_sound.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sounds\shoot.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\about.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\arrow.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\ball.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\bg_control.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\bg_lose.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\bg_win.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\bullet.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\char_bg_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\char_bg_2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\fram1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\fx_barrier.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\fx_burn.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\gauge.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\heart.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\hitbox.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\menu_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\menu_2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\menu_3.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\menu_4.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\menu_strip.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\newmainskill.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\newplus.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\pin.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\select.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\sheet_guan.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\sheet_mob.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\sheet_sung.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\sheet_thor.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\sheet_zeus.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\skill_thor_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\skill_thor_2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\skill_thor_3.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\skill_zeus_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\skill_zeus_2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\skill_zeus_3.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\stage_bg.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\stage_platform_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\stage_platform_2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\stage_sky_1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\stage_sky_2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\t1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\t2.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\z1.xnb" />
+    <None Include="bin\Windows\x86\Release\Content\sprites\z2.xnb" />
+    <None Include="bin\Windows\x86\Release\GodOfDuty.pdb" />
+    <None Include="bin\Windows\x86\Release\MonoGame.Framework.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.Direct2D1.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.Direct3D11.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.DXGI.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.MediaFoundation.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.XAudio2.dll" />
+    <None Include="bin\Windows\x86\Release\SharpDX.XInput.dll" />
+    <None Include="bin\Windows\x86\Release\TALES WAR.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\GodOfDuty.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\GodOfDuty.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\GodOfDuty.csprojAssemblyReference.cache" />
+    <None Include="obj\GodOfDuty.csproj.nuget.g.props" />
+    <None Include="obj\GodOfDuty.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\netcoreapp3.1\GodOfDuty.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\GodOfDuty.assets.cache" />
+    <None Include="obj\Release\netcoreapp3.1\GodOfDuty.csprojAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\Final Assignment.csproj.CopyComplete" />
+    <None Include="obj\x86\Debug\Final Assignment.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\x86\Debug\Final Assignment.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\Final Assignment.exe" />
+    <None Include="obj\x86\Debug\Final Assignment.pdb" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Release\Final Assignment.csproj.CopyComplete" />
+    <None Include="obj\x86\Release\Final Assignment.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\x86\Release\Final Assignment.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Release\Final Assignment.exe" />
+    <None Include="obj\x86\Release\Final Assignment.pdb" />
+    <None Include="obj\x86\Release\Tales war.csproj.CopyComplete" />
+    <None Include="obj\x86\Release\Tales war.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\x86\Release\Tales war.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
     <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+    <Folder Include="bin\Release\netcoreapp3.1\" />
   </ItemGroup>
 </Project>

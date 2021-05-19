@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework.Input;
 
 
-namespace Final_Assignment
+namespace GodOfDuty
 {
     class Singleton
     {
