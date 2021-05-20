@@ -1,59 +1,36 @@
 using Microsoft.Xna.Framework.Input;
-
+using System;
 
 namespace GodOfDuty
 {
     class Singleton
     {
+        public const int SCREENWIDTH = 700;
+        public const int SCREENHEIGHT = 700;
 
-        public KeyboardState _currentkey;
-        public KeyboardState _previouskey;
+        public const int INVADERHORDEWIDTH = 550;
+        public const int INVADERHORDEHEIGHT = 150;
 
-        public MouseState _currentmouse;
-        public MouseState _previousmouse;
+        public int InvaderLeft;
 
-        public const int SCREENWIDTH = 1200;
-        public const int SCREENHEIGHT = 800;
-        public GameObject follow;
-        public Camera _camera;
+        public int Score;
+        public int Life;
 
-        public string CurrentHero;
-        public int CurrentStage;
+        public Random Random;
 
-        public int level_sk1;
-        public int level_sk2;
-        public int level_sk3;
-
-
-        public int Cooldown_1;
-        public int Cooldown_2;
-
-
-        public float MasterBGMVolume = 0.2f;
-        public float MasterSFXVolume = 0.3f;
-
-
-        public bool isKeyboardCursorActive;
-        public bool isMouseActive;
-
-
-        public enum TurnState
+        public enum GameState
         {
-            skill,
-            angle,
-            force,
-            shoot,
-            enemy
+            StartNewLife,
+            GamePlaying,
+            GameOver
         }
+        public GameState CurrentGameState;
 
-        public TurnState CurrentTurnState;
+        public KeyboardState PreviousKey, CurrentKey;
 
         private static Singleton instance;
 
-        private Singleton()
-        {
-
-        }
+        private Singleton() { }
 
         public static Singleton Instance
         {
@@ -67,5 +44,4 @@ namespace GodOfDuty
             }
         }
     }
-
 }
