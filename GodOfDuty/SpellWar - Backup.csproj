@@ -9,8 +9,8 @@
     <ProjectGuid>{CCA78F63-E116-487A-9ECA-B24AA252B628}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpellWar</RootNamespace>
-    <AssemblyName>SpellWar</AssemblyName>
+    <RootNamespace>GodOfDuty</RootNamespace>
+    <AssemblyName>GodOfDuty</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>

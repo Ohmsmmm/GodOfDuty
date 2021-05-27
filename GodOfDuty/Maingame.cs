@@ -16,6 +16,7 @@ namespace GodOfDuty {
         Texture2D zeus;
         Texture2D shiva;
         Texture2D shivaDead, zeusDead;
+        Texture2D shivaWin, zeusWin;
         Texture2D select, target;
         Texture2D background, heart;
         GameObject player1, player2,item1,item2;
@@ -122,7 +123,8 @@ namespace GodOfDuty {
             select = Content.Load<Texture2D>("Select");
             target = Content.Load<Texture2D>("Target");
 
-
+            shivaWin = Content.Load<Texture2D>("shivaWin");
+            zeusWin = Content.Load<Texture2D>("zeusWin");
 
 
             player1 = new Player(shiva, heart) {
@@ -331,6 +333,8 @@ namespace GodOfDuty {
             if (Singleton.Instance.gameState == Singleton.GameState.PLAYER1_WIN)
             {
                 //TODO When Player1 win the game...
+                this.player1.IsActive = false;
+                spriteBatch.Draw(shivaWin, this.player1.Position, Color.White);
                 spriteBatch.DrawString(gameFont, "Shiva Win", new Vector2((graphics.PreferredBackBufferWidth / 2) - 120, 150), Color.Black);
                 spriteBatch.Draw(zeusDead, this.player2.Position, Color.White);
 
@@ -338,6 +342,8 @@ namespace GodOfDuty {
             if (Singleton.Instance.gameState == Singleton.GameState.PLAYER2_WIN)
             {
                 //TODO When Player2 win the game...
+                this.player2.IsActive = false;
+                spriteBatch.Draw(zeusWin, this.player2.Position, Color.White);
                 spriteBatch.DrawString(gameFont, "Zeus Win", new Vector2((graphics.PreferredBackBufferWidth / 2) - 120, 150), Color.Black);
                 spriteBatch.Draw(shivaDead, this.player1.Position, Color.White);
 

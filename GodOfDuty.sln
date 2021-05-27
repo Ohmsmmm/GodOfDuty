@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GodOfDuty", "SpellWar\GodOfDuty.csproj", "{4E92271D-E2B1-4D44-ADEC-325880350575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GodOfDuty", "GodOfDuty\GodOfDuty.csproj", "{4E92271D-E2B1-4D44-ADEC-325880350575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
