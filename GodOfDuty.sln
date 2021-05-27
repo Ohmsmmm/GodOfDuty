@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31229.75
+VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodOfDuty", "GodOfDuty.csproj", "{0F315B07-9F94-4F8B-B92C-1004FE4A3B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GodOfDuty", "SpellWar\GodOfDuty.csproj", "{4E92271D-E2B1-4D44-ADEC-325880350575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F315B07-9F94-4F8B-B92C-1004FE4A3B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F315B07-9F94-4F8B-B92C-1004FE4A3B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F315B07-9F94-4F8B-B92C-1004FE4A3B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F315B07-9F94-4F8B-B92C-1004FE4A3B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E92271D-E2B1-4D44-ADEC-325880350575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E92271D-E2B1-4D44-ADEC-325880350575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E92271D-E2B1-4D44-ADEC-325880350575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E92271D-E2B1-4D44-ADEC-325880350575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {46EDF3D1-C737-496E-845B-A7DB529682BF}
+		SolutionGuid = {6C12A035-0FB4-4617-88B1-B239FD681939}
 	EndGlobalSection
 EndGlobal
